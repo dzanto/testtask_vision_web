@@ -1,0 +1,180 @@
+Uri: http://click.pic.cards.tilda.ws/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\index.htm
+Content Type: text/html
+
+Uri: https://static.tildacdn.com/tild3239-3035-4632-a265-363064643163/-/resize/20x/__2020-11-12__140203.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3239-3035-4632-a265-363064643163\-\resize\20x\__2020-11-12__140203.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6563-3163-4638-a662-316634393061/-/resize/20x/__2020-11-12__140203.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild6563-3163-4638-a662-316634393061\-\resize\20x\__2020-11-12__140203.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6438-3964-4232-a133-633564366335/-/resize/20x/__2020-11-12__140308.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild6438-3964-4232-a133-633564366335\-\resize\20x\__2020-11-12__140308.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3735-3835-4337-b532-643763323437/-/resize/20x/__2020-11-12__140557.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3735-3835-4337-b532-643763323437\-\resize\20x\__2020-11-12__140557.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3431-3332-4636-a662-643765633332/-/resize/20x/__2020-11-12__140212.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3431-3332-4636-a662-643765633332\-\resize\20x\__2020-11-12__140212.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3465-3939-4961-a439-613363386236/-/resize/20x/__2020-11-12__140545.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3465-3939-4961-a439-613363386236\-\resize\20x\__2020-11-12__140545.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3362-3833-4534-b130-396663616534/-/resize/20x/1.jpg
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3362-3833-4534-b130-396663616534\-\resize\20x\1.jpg
+Content Type: image/jpeg
+
+Uri: https://tilda.ws/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\index-1.htm
+Content Type: text/html
+
+Uri: https://static.tildacdn.com/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\index-2.htm
+Content Type: text/html
+
+Uri: https://static.tildacdn.com/img/tildafavicon.ico
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\img\tildafavicon.ico
+Content Type: image/x-icon
+
+Uri: https://static.tildacdn.com/css/tilda-grid-3.0.min.css
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\css\tilda-grid-3.0.min.css
+Content Type: text/css
+
+Uri: https://tilda.ws/project281562/tilda-blocks-2.12.css?t=1605186051
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\project281562\tilda-blocks-2.12.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-animation-1.0.min.css
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\css\tilda-animation-1.0.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-slds-1.4.min.css
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\css\tilda-slds-1.4.min.css
+Content Type: text/css
+
+Uri: https://static.tildacdn.com/css/tilda-zoom-2.0.min.css
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\css\tilda-zoom-2.0.min.css
+Content Type: text/css
+
+Uri: https://teleg.run/benskaya
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\benskaya.html
+Content Type: text/html
+
+Uri: https://drive.google.com/file/d/1_CdbZJujSy8DoV0kZaQNEajVV0lI_Zxf/view?usp=sharing
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\file\d\1_CdbZJujSy8DoV0kZaQNEajVV0lI_Zxf\view.html
+Content Type: text/html
+
+Uri: https://www.instagram.com/click.pic.cards/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\click.pic.cards\index.htm
+Content Type: text/html
+
+Uri: http://click.pic.cards.tilda.ws/cards
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\cards.html
+Content Type: text/html
+
+Uri: https://tilda.cc/registration/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\registration\index.htm
+Content Type: text/html
+
+Uri: http://help.tilda.ws/white-label
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\white-label.html
+Content Type: text/html
+
+Uri: https://tilda.cc/abuse/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\abuse\index.htm
+Content Type: text/html
+
+Uri: https://static.tildacdn.com/js/jquery-1.10.2.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\jquery-1.10.2.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-scripts-2.8.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-scripts-2.8.min.js
+Content Type: application/javascript
+
+Uri: https://tilda.ws/project281562/tilda-blocks-2.7.js?t=1605186051
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\project281562\tilda-blocks-2.7.js
+Content Type: application/x-javascript
+
+Uri: https://static.tildacdn.com/js/lazyload-1.3.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\lazyload-1.3.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-animation-1.0.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-animation-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-slds-1.4.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-slds-1.4.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/hammer.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\hammer.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-zoom-2.0.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-zoom-2.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-animation-ext-1.0.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-animation-ext-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/js/tilda-animation-sbs-1.0.min.js
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\js\tilda-animation-sbs-1.0.min.js
+Content Type: application/javascript
+
+Uri: https://static.tildacdn.com/img/tildacopy.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\img\tildacopy.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3033-6532-4635-b364-643635616133/-/resizeb/20x/__2020-11-12__140203.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3033-6532-4635-b364-643635616133\-\resizeb\20x\__2020-11-12__140203.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3934-3431-4162-a532-333135343633/-/resizeb/20x/__2020-11-12__140253.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3934-3431-4162-a532-333135343633\-\resizeb\20x\__2020-11-12__140253.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6639-6339-4133-b437-393965643639/-/resizeb/20x/__2020-11-12__140308.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild6639-6339-4133-b437-393965643639\-\resizeb\20x\__2020-11-12__140308.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3134-3530-4465-b961-353465653934/-/resizeb/20x/__2020-11-12__140545.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3134-3530-4465-b961-353465653934\-\resizeb\20x\__2020-11-12__140545.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3837-3838-4631-b132-323233633334/-/resizeb/20x/__2020-11-12__140557.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3837-3838-4631-b132-323233633334\-\resizeb\20x\__2020-11-12__140557.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3534-3836-4331-a262-636337303339/-/resizeb/20x/__2020-11-12__140947.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3534-3836-4331-a262-636337303339\-\resizeb\20x\__2020-11-12__140947.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild6236-3563-4138-b337-326439363265/-/resizeb/20x/__2020-11-12__140212.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild6236-3563-4138-b337-326439363265\-\resizeb\20x\__2020-11-12__140212.png
+Content Type: image/png
+
+Uri: https://static.tildacdn.com/tild3163-6632-4862-b133-353735343661/-/resizeb/20x/__2020-11-12__140316.png
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\tild3163-6632-4862-b133-353735343661\-\resizeb\20x\__2020-11-12__140316.png
+Content Type: image/png
+
+Uri: https://tilda.ws/project281562/tilda-blocks-2.12.css?t=1605180454
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\project281562\tilda-blocks-2.12-1.css
+Content Type: text/css
+
+Uri: https://tilda.ws/project281562/tilda-blocks-2.7.js?t=1605180454
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\project281562\tilda-blocks-2.7-1.js
+Content Type: application/x-javascript
+
+Uri: https://tilda.cc/ru/
+File Name: C:\Downloaded Web Sites\click.pic.cards.tilda.ws\ru\index.htm
+Content Type: text/html
+
