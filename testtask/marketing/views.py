@@ -25,12 +25,12 @@ def index(request):
     elif request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            subject = form.cleaned_data['subject']
+            subject = request.POST.get('subject', '')
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(f'{subject} от {from_email}', message,
-                          'admin@mysite.com', ['manager@mysite.com'])
+                send_mail(subject, message,
+                          from_email, ['manager@mysite.com'])
             except BadHeaderError:
                 return HttpResponse('Ошибка в теме письма.')
             return redirect('index')

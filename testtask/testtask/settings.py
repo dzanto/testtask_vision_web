@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
+    'api',
     'marketing',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -130,3 +132,12 @@ MEDIA_URL = '/media/'
 RECIPIENTS_EMAIL = ['manager@mysite.com']
 DEFAULT_FROM_EMAIL = 'admin@mysite.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    }
