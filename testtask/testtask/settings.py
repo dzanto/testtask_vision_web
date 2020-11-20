@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'sorl.thumbnail',
     'marketing',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -127,3 +126,7 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
+
+RECIPIENTS_EMAIL = ['manager@mysite.com']
+DEFAULT_FROM_EMAIL = 'admin@mysite.com'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

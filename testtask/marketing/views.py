@@ -1,12 +1,48 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.shortcuts import get_object_or_404, get_list_or_404
-from.models import Card
+from.models import Pic, PIC_CHOICES, Text, TEXT_CHOICES
+from django.core.mail import BadHeaderError, send_mail
+from django.http import HttpResponse, HttpResponseRedirect
+from .forms import ContactForm
 
-# Create your views here.
+PIC_DICT = {a: None for a, b in PIC_CHOICES}
+TEXT_DICT = {a: None for a, b in TEXT_CHOICES}
 
 
 def index(request):
-    card1 = get_object_or_404(Card, name='card1')
-    card2 = get_object_or_404(Card, name='card2')
-    return render(request, 'index.html', {"card1": card1, 'card2': card2})
+    pic_list = Pic.objects.all()
+    for pic in pic_list:
+        PIC_DICT[pic.name] = pic
+
+    text_list = Text.objects.all()
+    for text in text_list:
+        TEXT_DICT[text.name] = text
+
+
+
+    if request.method == 'GET':
+        form = ContactForm()
+    elif request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            subject = form.cleaned_data['subject']
+            from_email = form.cleaned_data['from_email']
+            message = form.cleaned_data['message']
+            try:
+                send_mail(f'{subject} от {from_email}', message,
+                          'admin@mysite.com', ['manager@mysite.com'])
+            except BadHeaderError:
+                return HttpResponse('Ошибка в теме письма.')
+            return redirect('index')
+    else:
+        return HttpResponse('Неверный запрос.')
+
+    return render(request, 'index.html', {
+        'form': form,
+        "PIC_DICT": PIC_DICT,
+        "TEXT_DICT": TEXT_DICT,
+    })
+
+    # def success_view(request):
+    #     return HttpResponse('Приняли! Спасибо за вашу заявку.')
 

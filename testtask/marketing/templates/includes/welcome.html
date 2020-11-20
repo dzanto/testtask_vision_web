@@ -71,10 +71,14 @@
      data-field-widthunits-value="px"
      data-animate-style="fadein" data-animate-duration="3"
      data-animate-delay="0.3" data-animate-mobile="y">
-    <div class='tn-atom' field='tn_text_1605104937896'>Это
-        проект Click Pic, мы создаем открытки, чтобы вы всегда
-        могли рассказать о своих чувствах ✨ А эту страницу
-        сделали, чтобы найти партнеров единомышленников
+    <div class='tn-atom' field='tn_text_1605104937896'>
+        {% if TEXT_DICT.hello %}
+            {{ TEXT_DICT.hello.content }}
+        {% else %}
+            Это проект Click Pic, мы создаем открытки, чтобы вы всегда
+            могли рассказать о своих чувствах ✨ А эту страницу
+            сделали, чтобы найти партнеров единомышленников
+        {% endif %}
     </div>
 </div>
 <!--желтый овал-->
