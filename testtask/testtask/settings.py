@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'crispy_forms',
     'rest_framework',
     'api',
     'marketing',
@@ -141,3 +142,5 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
     }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

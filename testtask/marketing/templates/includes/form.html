@@ -1,0 +1,11 @@
+{% load crispy_forms_tags %}
+
+<div class="row justify-content-center">
+        <div class="col-8">
+            <form method="post">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit" class="btn btn-success">Отправить сообщение</button>
+            </form>
+        </div>
+</div>

@@ -25,11 +25,11 @@ def index(request):
     elif request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            subject = request.POST.get('subject', '')
+            # subject = request.POST.get('subject', '')
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
             try:
-                send_mail(subject, message,
+                send_mail('Message from site', message,
                           from_email, ['manager@mysite.com'])
             except BadHeaderError:
                 return HttpResponse('Ошибка в теме письма.')

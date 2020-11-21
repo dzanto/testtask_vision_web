@@ -1,7 +1,6 @@
-from rest_framework import permissions, filters
 from rest_framework.generics import ListAPIView, CreateAPIView
 from rest_framework.generics import get_object_or_404
-from django.contrib.auth import get_user_model
+from django.shortcuts import get_list_or_404
 from .models import User
 from .serializers import UserSerializer
 from rest_framework.permissions import AllowAny
@@ -29,7 +28,7 @@ class ListUserView(ListAPIView):
 
 
 class ListActiveUserView(ListAPIView):
-    queryset = User.objects.filter(is_active=True)
+    queryset = get_list_or_404(User, is_active=True)
     serializer_class = UserSerializer
     permission_classes = [AllowAny]
 
@@ -51,7 +50,7 @@ def email_confirmation(request):
     code = default_token_generator.make_token(user)
 
     send_mail(
-        subject='Ваш код аутентификации в Yamdb',
+        subject='Ваш код аутентификации',
         message='Сохраните код! Он понадобится вам для получения токена.\n'
                 f'confirmation_code:\n{code}\n'
                 f'username: {username}',
