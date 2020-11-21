@@ -83,7 +83,11 @@
      data-field-heightunits-value="px"
      data-field-widthunits-value="px">
     <div class='tn-atom t-bgimg'
-         data-original="https://static.tildacdn.com/tild3431-3332-4636-a662-643765633332/__2020-11-12__140212.png"
+            {% if PIC_DICT.realization_pic %}
+                data-original="{{ PIC_DICT.realization_pic.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild3431-3332-4636-a662-643765633332/__2020-11-12__140212.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild3431-3332-4636-a662-643765633332
     /-/resize/20x/__2020-11-12__140212.png" %}');">

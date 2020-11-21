@@ -50,9 +50,12 @@
      data-field-widthunits-value="px" data-animate-mobile="y"
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':1,'bl':'0','ea':'','dt':'0'}]">
-    <!--         data-original="https://static.tildacdn.com/tild3239-3035-4632-a265-363064643163/__2020-11-12__140203.png"-->
     <div class='tn-atom t-bgimg'
-                  data-original="{{ PIC_DICT.card1.img_file.url }}"
+            {% if PIC_DICT.card1 %}
+                data-original="{{ PIC_DICT.card1.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild3239-3035-4632-a265-363064643163/__2020-11-12__140203.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild3239-3035-4632-a265-363064643163
     /-/resize/20x/__2020-11-12__140203.png" %}');">
@@ -86,9 +89,12 @@
      data-field-widthunits-value="px" data-animate-mobile="y"
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':-1,'bl':'0','ea':'','dt':'0'}]">
-<!--    data-original="https://static.tildacdn.com/tild6438-3964-4232-a133-633564366335/__2020-11-12__140308.png"-->
     <div class='tn-atom t-bgimg'
-         data-original="{{ PIC_DICT.card2.img_file.url }}"
+            {% if PIC_DICT.card2 %}
+                data-original="{{ PIC_DICT.card2.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild6438-3964-4232-a133-633564366335/__2020-11-12__140308.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild6438-3964-4232-a133-633564366335
     /-/resize/20x/__2020-11-12__140308.png" %}');">
@@ -122,9 +128,12 @@
      data-field-widthunits-value="px" data-animate-mobile="y"
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':1,'bl':'0','ea':'','dt':'0'}]">
-    <!--         data-original="https://static.tildacdn.com/tild3735-3835-4337-b532-643763323437/__2020-11-12__140557.png"-->
     <div class='tn-atom t-bgimg'
-         data-original="{{ PIC_DICT.card3.img_file.url }}"
+            {% if PIC_DICT.card3 %}
+                data-original="{{ PIC_DICT.card3.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild3735-3835-4337-b532-643763323437/__2020-11-12__140557.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild3735-3835-4337-b532-643763323437
     /-/resize/20x/__2020-11-12__140557.png" %}');">
@@ -159,8 +168,11 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':-1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-         data-original="https://static.tildacdn.com/tild3465-3939-4961-a439-613363386236/__2020-11-12__140545.png"
-         data-original="{{ PIC_DICT.card4.img_file.url }}"
+            {% if PIC_DICT.card4 %}
+                data-original="{{ PIC_DICT.card4.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild3465-3939-4961-a439-613363386236/__2020-11-12__140545.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild3465-3939-4961-a439-613363386236
     /-/resize/20x/__2020-11-12__140545.png" %}');">

@@ -16,9 +16,14 @@
      data-field-heightunits-value=""
      data-field-widthunits-value="px"
      data-animate-style="fadein" data-animate-duration="1.5">
-    <div class='tn-atom'><img class='tn-atom__img t-img'
-                              data-original='https://static.tildacdn.com/tild3131-6134-4034-b362-633465333064/logo.png'
-                              imgfield='tn_img_1605104223431'>
+    <div class='tn-atom'>
+        <img class='tn-atom__img t-img'
+            {% if PIC_DICT.logo %}
+                data-original="{{ PIC_DICT.logo.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild3131-6134-4034-b362-633465333064/logo.png"
+            {% endif %}
+             imgfield='tn_img_1605104223431'>
     </div>
 </div>
 <div class='t396__elem tn-elem tn-elem__2490061611605104950958 t-animate'
@@ -137,7 +142,11 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.05,'sy':1.05,'op':'1','ro':-1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-         data-original="https://static.tildacdn.com/tild6563-3163-4638-a662-316634393061/__2020-11-12__140203.png"
+            {% if PIC_DICT.head_pic %}
+                data-original="{{ PIC_DICT.head_pic.img_file.url }}"
+            {% else %}
+                data-original="https://static.tildacdn.com/tild6563-3163-4638-a662-316634393061/__2020-11-12__140203.png"
+            {% endif %}
          style="background-image:url('{% static "
          tild6563-3163-4638-a662-316634393061
     /-/resize/20x/__2020-11-12__140203.png" %}');">
