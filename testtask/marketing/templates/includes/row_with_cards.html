@@ -51,15 +51,13 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-            {% if PIC_DICT.card1 %}
-                data-original="{{ PIC_DICT.card1.img_file.url }}"
-            {% else %}
-                data-original="https://static.tildacdn.com/tild3239-3035-4632-a265-363064643163/__2020-11-12__140203.png"
-            {% endif %}
-         style="background-image:url('{% static "
-         tild3239-3035-4632-a265-363064643163
-    /-/resize/20x/__2020-11-12__140203.png" %}');">
-    </div>
+         {% if PIC_DICT.card1 %}
+         data-original="{{ PIC_DICT.card1.img_file.url }}"
+         {% else %}
+         data-original="https://static.tildacdn.com/tild3239-3035-4632-a265-363064643163/__2020-11-12__140203.png"
+         {% endif %}
+         >
+</div>
 </div>
 <!--        втораявряду-->
 <div class='t396__elem tn-elem tn-elem__2490061611605173948334'
@@ -90,15 +88,13 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':-1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-            {% if PIC_DICT.card2 %}
-                data-original="{{ PIC_DICT.card2.img_file.url }}"
-            {% else %}
-                data-original="https://static.tildacdn.com/tild6438-3964-4232-a133-633564366335/__2020-11-12__140308.png"
-            {% endif %}
-         style="background-image:url('{% static "
-         tild6438-3964-4232-a133-633564366335
-    /-/resize/20x/__2020-11-12__140308.png" %}');">
-</div>
+         {% if PIC_DICT.card2 %}
+         data-original="{{ PIC_DICT.card2.img_file.url }}"
+         {% else %}
+         data-original="https://static.tildacdn.com/tild6438-3964-4232-a133-633564366335/__2020-11-12__140308.png"
+         {% endif %}
+    >
+    </div>
 </div>
 <!--    третьявряду-->
 <div class='t396__elem tn-elem tn-elem__2490061611605173957408'
@@ -129,14 +125,12 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-            {% if PIC_DICT.card3 %}
-                data-original="{{ PIC_DICT.card3.img_file.url }}"
-            {% else %}
-                data-original="https://static.tildacdn.com/tild3735-3835-4337-b532-643763323437/__2020-11-12__140557.png"
-            {% endif %}
-         style="background-image:url('{% static "
-         tild3735-3835-4337-b532-643763323437
-    /-/resize/20x/__2020-11-12__140557.png" %}');">
+         {% if PIC_DICT.card3 %}
+         data-original="{{ PIC_DICT.card3.img_file.url }}"
+         {% else %}
+         data-original="https://static.tildacdn.com/tild3735-3835-4337-b532-643763323437/__2020-11-12__140557.png"
+         {% endif %}
+         >
 </div>
 </div>
 <!--    открытка №4 в ряду-->
@@ -168,14 +162,12 @@
      data-animate-sbs-event="hover"
      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':'0','my':'0','sx':1.1,'sy':1.1,'op':1,'ro':-1,'bl':'0','ea':'','dt':'0'}]">
     <div class='tn-atom t-bgimg'
-            {% if PIC_DICT.card4 %}
-                data-original="{{ PIC_DICT.card4.img_file.url }}"
-            {% else %}
-                data-original="https://static.tildacdn.com/tild3465-3939-4961-a439-613363386236/__2020-11-12__140545.png"
-            {% endif %}
-         style="background-image:url('{% static "
-         tild3465-3939-4961-a439-613363386236
-    /-/resize/20x/__2020-11-12__140545.png" %}');">
+         {% if PIC_DICT.card4 %}
+         data-original="{{ PIC_DICT.card4.img_file.url }}"
+         {% else %}
+         data-original="https://static.tildacdn.com/tild3465-3939-4961-a439-613363386236/__2020-11-12__140545.png"
+         {% endif %}
+         >
 </div>
 </div>
 <div class='t396__elem tn-elem tn-elem__2490061611605178149755 t-animate'
@@ -231,27 +223,27 @@
     </div>
 </div>
 <!--стрелка вправо-->
-                <div class='t396__elem tn-elem tn-elem__2490061611605178302390'
-                     data-elem-id='1605178302390' data-elem-type='image'
-                     data-field-top-value="1390"
-                     data-field-top-res-960-value="1327"
-                     data-field-top-res-640-value="1373"
-                     data-field-top-res-480-value="1068"
-                     data-field-top-res-320-value="960"
-                     data-field-left-value="-281"
-                     data-field-left-res-960-value="-141"
-                     data-field-left-res-640-value="18"
-                     data-field-left-res-480-value="89"
-                     data-field-left-res-320-value="-1"
-                     data-field-width-value="137" data-field-axisy-value="top"
-                     data-field-axisx-value="center"
-                     data-field-container-value="window"
-                     data-field-topunits-value="px"
-                     data-field-leftunits-value="px"
-                     data-field-heightunits-value=""
-                     data-field-widthunits-value="px"><a class='tn-atom'
-                                                         href="cards.html"
-                                                         target="_blank"> <img
-                        class='tn-atom__img t-img'
-                        data-original='https://static.tildacdn.com/tild3837-3634-4638-b039-616536373866/Group_34_3.png'
-                        imgfield='tn_img_1605178302390'> </a></div>
+<div class='t396__elem tn-elem tn-elem__2490061611605178302390'
+     data-elem-id='1605178302390' data-elem-type='image'
+     data-field-top-value="1390"
+     data-field-top-res-960-value="1327"
+     data-field-top-res-640-value="1373"
+     data-field-top-res-480-value="1068"
+     data-field-top-res-320-value="960"
+     data-field-left-value="-281"
+     data-field-left-res-960-value="-141"
+     data-field-left-res-640-value="18"
+     data-field-left-res-480-value="89"
+     data-field-left-res-320-value="-1"
+     data-field-width-value="137" data-field-axisy-value="top"
+     data-field-axisx-value="center"
+     data-field-container-value="window"
+     data-field-topunits-value="px"
+     data-field-leftunits-value="px"
+     data-field-heightunits-value=""
+     data-field-widthunits-value="px"><a class='tn-atom'
+                                         href="cards.html"
+                                         target="_blank"> <img
+        class='tn-atom__img t-img'
+        data-original='https://static.tildacdn.com/tild3837-3634-4638-b039-616536373866/Group_34_3.png'
+        imgfield='tn_img_1605178302390'> </a></div>

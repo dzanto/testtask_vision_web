@@ -10,7 +10,6 @@ from rest_framework import status
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.conf import settings
-from rest_framework_simplejwt.tokens import RefreshToken
 
 
 class CreateUserView(CreateAPIView):
@@ -64,10 +63,7 @@ def get_token(request):
     if default_token_generator.check_token(user, code):
         user.is_active = True
         user.save()
-        refresh = RefreshToken.for_user(user)
-        tokens = {'refresh': str(refresh),
-                  'access': str(refresh.access_token)}
-        return Response(tokens, status.HTTP_200_OK)
+        return Response({"message": "Аккаунт активирован"}, status.HTTP_200_OK)
 
     return Response({"message": "неверный код подтверждения."},
                     status.HTTP_400_BAD_REQUEST)
